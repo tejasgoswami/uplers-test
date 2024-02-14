@@ -1,0 +1,41 @@
+table {
+    width: 100%;
+    overflow-x: hidden;
+    align-items: center;
+    border: 1px solid;
+    box-sizing: border-box;
+    height: 100vh;
+    padding: 50px;
+    border-spacing: 50px;
+}
+
+th {
+    padding: 10px;
+    background-color: gray;
+    font-weight: bold;
+    border: 1px solid black;
+    
+}
+
+
+td {
+    padding: 10px;
+    border: 1px solid black;
+    position: relative; 
+}
+
+.tooltip{ 
+    display: none; 
+    position: absolute;  
+    z-index: 100; 
+    border: 1px; 
+    background-color: white; 
+    border: 1px solid green; 
+    padding: 3px; 
+    color: green;  
+    top: -20px;  
+    right: -20px; 
+} 
+td:hover span.tooltip{ 
+    display:block; 
+}
